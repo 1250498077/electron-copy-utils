@@ -1,0 +1,1121 @@
+{
+    "isSuccess": true,
+    "code": "0",
+    "result": {
+        "provinceId": "1",
+        "cityId": "72",
+        "time": "1DAY",
+        "rankId": "rank3001",
+        "cateId": "653",
+        "rankInfo": [
+            {
+                "wareId": "100010763726",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/108209/29/8594/275483/5e6b70bdEc1c343c2/a7855c402e670260.jpg",
+                "wareName": "OPPO A8 4GB+128GB 秘夜黑 6.5英寸水滴屏 4230mAh大电池 后置AI三摄 全网通4G 全面屏拍照游戏智能手机",
+                "jdPrice": "1199",
+                "mPrice": "1500",
+                "productValue": {
+                    "hotScore": "100"
+                },
+                "stockNum": "-1",
+                "currentRank": "1",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004065"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100009165080",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/88734/35/14755/222963/5e68be02Ef01d7ede/9fa48788ce1a7065.jpg",
+                "wareName": "vivo iQOO Neo 855版 8GB+128GB 冰岛极光 骁龙855处理器 33W超快闪充 4500mAh大电池游戏手机 全网通4G手机",
+                "jdPrice": "2098",
+                "mPrice": "10000",
+                "lowInDay": 90,
+                "productValue": {
+                    "hotScore": "100"
+                },
+                "stockNum": "-1",
+                "currentRank": "2",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史90天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000085868"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100005207361",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/96269/3/14344/153834/5e65b5a8E4203e9bb/6feb16c2089f8ed0.jpg",
+                "wareName": "荣耀20青春版 AMOLED屏幕指纹 4000mAh大电池 20W快充 4800万 手机 6GB+64GB 幻夜黑",
+                "jdPrice": "1189",
+                "mPrice": "9999",
+                "lowInDay": 90,
+                "productValue": {
+                    "hotScore": "99"
+                },
+                "stockNum": "-1",
+                "currentRank": "3",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史90天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004559325",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/86253/39/14555/121706/5e65bef7E432d76ae/95e062198ddb20f0.jpg",
+                "wareName": "荣耀20S 李现同款 3200万人像超级夜景 4800万超广角AI三摄 麒麟810 全网通版6GB+128GB 蝶羽蓝",
+                "jdPrice": "1589",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "99"
+                },
+                "stockNum": "-1",
+                "currentRank": "4",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100000986052",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t24667/345/1891302509/488286/31587d0d/5bbf1d7cN1c1408ac.jpg",
+                "wareName": "华为 HUAWEI Mate 20 麒麟980AI智能芯片全面屏超微距影像超大广角徕卡三摄6GB+64GB亮黑色全网通版双4G手机",
+                "jdPrice": "3199",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "98"
+                },
+                "stockNum": "-1",
+                "currentRank": "5",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100007411764",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/110279/4/8552/189932/5e68be3cE9c69869f/5454e7fdd88e9d52.jpg",
+                "wareName": "vivo iQOO Pro 5G 8GB+128GB 竞速黑 高通骁龙855Plus手机 4800万AI三摄 44W超快闪充 全网通手机",
+                "jdPrice": "3198",
+                "mPrice": "10000",
+                "lowInDay": 30,
+                "productValue": {
+                    "hotScore": "97"
+                },
+                "stockNum": "-1",
+                "currentRank": "6",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史30天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000085868"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100011238400",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/109427/38/8526/144711/5e6a0767Eb105264f/4faae3601789314a.jpg",
+                "wareName": "vivo Z6 5G手机 6GB+128GB 冰川纪 44W超快闪充 高通骁龙765G 5000mAh超大电池 全网通手机",
+                "jdPrice": "2298",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "97"
+                },
+                "stockNum": "-1",
+                "currentRank": "7",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000085868"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100003717483",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/47193/2/3369/231278/5d11cb39Ef3674059/ba3c0a1d956429e2.jpg",
+                "wareName": "华为 HUAWEI nova 5 Pro 前置3200万人像超级夜景4800万AI四摄麒麟980芯片8GB+128GB绮境森林全网通双4G手机",
+                "jdPrice": "2699",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "96"
+                },
+                "stockNum": "-1",
+                "currentRank": "8",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100005787046",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/91652/28/14770/154199/5e68b808E544c75d7/516cbd8b9d6c01d3.jpg",
+                "wareName": "vivo Z5x 6GB+128GB 极光色 极点屏手机  5000mAh大电池 三摄拍照手机 移动联通电信全网通4G手机",
+                "jdPrice": "1398",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "95"
+                },
+                "stockNum": "-1",
+                "currentRank": "9",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000085868"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004791691",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/99838/37/15035/124479/5e68bac8Ec954c113/389182a5b35f3fca.jpg",
+                "wareName": "vivo U3x 4GB+64GB 深湖蓝 5000mAh大电池 18W双引擎闪充 超广角AI三摄 骁龙665处理器 全网通4G手机",
+                "jdPrice": "899",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "95"
+                },
+                "stockNum": "-1",
+                "currentRank": "10",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000085868"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100008046056",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/42460/39/13570/407199/5d6cef9cEd45d2dae/0ecc260163654b2a.jpg",
+                "wareName": "华为 HUAWEI 畅享10 Plus 超高清全视屏前置悬浮式镜头4800万超广角AI三摄 4GB+128GB幻夜黑全网通双4G手机",
+                "jdPrice": "1499",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "95"
+                },
+                "stockNum": "-1",
+                "currentRank": "11",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100009177368",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/67870/7/13409/416682/5dac1770Ec347fcd5/686cd05c0ce1f8b3.jpg",
+                "wareName": "华为 HUAWEI nova 5z 麒麟810芯片 4800万AI四摄 3200万人像超级夜景  6GB+64GB 幻夜黑 全网通双卡双待",
+                "jdPrice": "1599",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "94"
+                },
+                "stockNum": "-1",
+                "currentRank": "12",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004138093",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/109467/31/8660/154452/5e69f2cfEa5221e24/336807c939bba3cd.jpg",
+                "wareName": "vivo Z5 8GB+128GB 极光幻境 4800万超广角AI三摄手机 22.5W快充 4500mAh大电池 全网通4G手机",
+                "jdPrice": "1698",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "93"
+                },
+                "stockNum": "-1",
+                "currentRank": "13",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000085868"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "4526055",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/39578/14/12218/359732/5d3578cbEdf6fdb06/164407d41a000a04.jpg",
+                "wareName": "天语（K-TOUCH）N1 老人手机 移动/联通 双卡双待 按键直板 超长待机 老年学生备用功能机 红色",
+                "jdPrice": "99",
+                "mPrice": "178",
+                "plusPrice": "93",
+                "productValue": {
+                    "hotScore": "91"
+                },
+                "stockNum": "-1",
+                "currentRank": "14",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000089003"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100001693805",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t28822/194/897534616/151785/6edd523f/5c00df9bN52171b33.jpg",
+                "wareName": "华为 HUAWEI 畅享9  4GB+64GB 幻夜黑 高清珍珠屏 AI长续航 全网通高配版 移动联通电信4G手机",
+                "jdPrice": "999",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "91"
+                },
+                "stockNum": "-1",
+                "currentRank": "15",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004575495",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/47839/4/9041/292222/5d6748b9E7e0a2107/4ca49d6eaf5afe40.jpg",
+                "wareName": "Redmi Note8 4800万全场景四摄 4000mAh长续航 高通骁龙665 18W快充 小金刚品质保证 4GB+64GB 曜石黑 游戏智能手机 小米 红米",
+                "jdPrice": "899",
+                "mPrice": "6000",
+                "productValue": {
+                    "hotScore": "91"
+                },
+                "stockNum": "-1",
+                "currentRank": "16",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004123"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100007765506",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/80529/20/8141/192434/5d5f78f3E8f1e6042/8725a351ed9c4c6d.jpg",
+                "wareName": "魅族 16s Pro 骁龙855plus 全面屏拍照游戏手机 6GB+128GB 梦幻独角兽 全网通移动联通电信4G手机 双卡双待",
+                "jdPrice": "2689",
+                "mPrice": "9999",
+                "lowInDay": 90,
+                "productValue": {
+                    "hotScore": "91"
+                },
+                "stockNum": "-1",
+                "currentRank": "17",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史90天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000001952"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004069493",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/93461/30/14360/161582/5e65bb88E87c82650/55681366bf80a5b0.jpg",
+                "wareName": "荣耀9X 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏 全网通6GB+64GB 魅焰红",
+                "jdPrice": "1289",
+                "mPrice": "9999",
+                "lowInDay": 90,
+                "productValue": {
+                    "hotScore": "91"
+                },
+                "stockNum": "-1",
+                "currentRank": "18",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史90天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100003395441",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/88105/15/14353/114572/5e65bd82E63808958/3acdd6900a1a51ac.jpg",
+                "wareName": "荣耀20 PRO 李现同款 4800万全焦段AI四摄 双光学防抖 麒麟980 全网通4G 8GB+128GB 幻夜星河 拍照手机",
+                "jdPrice": "2489",
+                "mPrice": "9999",
+                "lowInDay": 30,
+                "productValue": {
+                    "hotScore": "90"
+                },
+                "stockNum": "-1",
+                "currentRank": "19",
+                "priorityLabel": {
+                    "5": "每满2489元，可减200元现金"
+                },
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史30天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100009177370",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/92789/37/15062/178513/5e6cb1e8E0811e9e7/98c20d463de3db5b.jpg",
+                "wareName": "华为 HUAWEI Mate 30 Pro 5G 麒麟990 OLED环幕屏双4000万徕卡电影四摄8GB+256GB星河银5G全网通游戏手机",
+                "jdPrice": "6899",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "90"
+                },
+                "stockNum": "-1",
+                "currentRank": "20",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100008348546",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/104125/17/14156/235696/5e637856E977991ec/95ea266a3e9f3a1c.jpg",
+                "wareName": "Apple iPhone 11 Pro Max (A2220) 256GB 金色  移动联通电信4G手机 双卡双待",
+                "jdPrice": "10899",
+                "mPrice": "10900",
+                "productValue": {
+                    "hotScore": "89"
+                },
+                "stockNum": "-1",
+                "currentRank": "21",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000000127"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100009177394",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/95812/38/1417/166142/5dbe86e9Ee6b3613b/c047f36e8f74309d.jpg",
+                "wareName": "华为 HUAWEI Mate 30 5G 麒麟990 4000万超感光徕卡影像双超级快充8GB+256GB翡冷翠5G全网通游戏手机",
+                "jdPrice": "5499",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "86"
+                },
+                "stockNum": "-1",
+                "currentRank": "22",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100008031678",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/97493/38/14433/90433/5e65c3aeE099c2bff/f6b2c16553d60717.jpg",
+                "wareName": "荣耀Play3 6.39英寸魅眼全视屏 4000mAh大电池 真4800万AI三摄 麒麟710F自研芯片 畅玩全网通6GB+64GB 幻夜黑",
+                "jdPrice": "989",
+                "mPrice": "9999",
+                "lowInDay": 90,
+                "productValue": {
+                    "hotScore": "84"
+                },
+                "stockNum": "-1",
+                "currentRank": "23",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史90天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "7437714",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/66991/40/8602/92821/5d6743d0Ed0eec544/f1b6954d52a2ff66.jpg",
+                "wareName": "Redmi Note8Pro 6400万全场景四摄 液冷游戏芯 4500mAh NFC 18W快充 6GB+128GB 冰翡翠 游戏手机 小米 红米",
+                "jdPrice": "1399",
+                "mPrice": "6000",
+                "productValue": {
+                    "hotScore": "82"
+                },
+                "stockNum": "-1",
+                "currentRank": "24",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004123"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100002749549",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/91057/34/14971/90594/5e6cb520Ec47073c0/e836c6d8789ed095.jpg",
+                "wareName": "【超级爆款】华为 HUAWEI P30 超感光徕卡三摄麒麟980AI智能芯片全面屏屏内指纹版手机8GB+128GB天空之境全网通双4G手机",
+                "jdPrice": "3988",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "82"
+                },
+                "stockNum": "-1",
+                "currentRank": "25",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100008384346",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/79596/30/11549/676613/5d901c88Ec7a97d29/d189e56d89d975b6.jpg",
+                "wareName": "华为 HUAWEI Mate 30 麒麟990旗舰芯片4000万超感光徕卡影像屏内指纹8G+128GB亮黑色4G全网通版游戏手机",
+                "jdPrice": "4299",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "81"
+                },
+                "stockNum": "-1",
+                "currentRank": "26",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100009082400",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/96771/25/88/213545/5da6d49eE557681de/7469cf746af81035.jpg",
+                "wareName": "【新品抢购】Redmi 8A 5000mAh大电量 大字体大音量大内存 骁龙八核处理器 AI人脸解锁 莱茵护眼全面屏3GB+32GB 珊瑚橙 游戏智能老人手机 小米 红米",
+                "jdPrice": "599",
+                "mPrice": "6000",
+                "productValue": {
+                    "hotScore": "78"
+                },
+                "stockNum": "-1",
+                "currentRank": "27",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004123"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100010547800",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/99275/11/4651/101812/5de8be00Ecbb24e45/c713934936c36c78.jpg",
+                "wareName": "华为 HUAWEI nova 6 SE 麒麟810芯片4800万AI四摄40W超级快充8GB+128GB 绮境森林 全网通双卡双待",
+                "jdPrice": "2199",
+                "mPrice": "100000",
+                "productValue": {
+                    "hotScore": "77"
+                },
+                "stockNum": "-1",
+                "currentRank": "28",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100005729525",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/100943/27/14663/100308/5e684cb3Edd3630d0/adf0612abb9edc30.jpg",
+                "wareName": "荣耀V30 李现同款 5G 双模 麒麟990 突破性相机矩阵 游戏手机 8GB+128GB 幻夜星河 移动联通电信5G 双卡双待",
+                "jdPrice": "3389",
+                "mPrice": "9999",
+                "lowInDay": 90,
+                "productValue": {
+                    "hotScore": "76"
+                },
+                "stockNum": "-1",
+                "currentRank": "29",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史90天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "56664781393",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/108242/20/6965/119186/5e5640e5E5ac96c2a/1c428b6800f87b01.jpg",
+                "wareName": "Apple 苹果 iPhone 11 手机 紫色 全网通 128GB",
+                "jdPrice": "5729",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "75"
+                },
+                "stockNum": "-1",
+                "currentRank": "30",
+                "productExt": {
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "116240"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100010338198",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/92595/13/5590/90517/5dee4a12Ef3d605c9/f5e1a764e2632674.jpg",
+                "wareName": "Redmi K30 王一博同款 120Hz流速屏 前置挖孔双摄 6GB+128GB 紫玉幻境 游戏智能手机 小米 红米",
+                "jdPrice": "1699",
+                "mPrice": "6000",
+                "productValue": {
+                    "hotScore": "74"
+                },
+                "stockNum": "-1",
+                "currentRank": "31",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004123"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100008348534",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/87854/40/14269/184025/5e637338Efaef7456/ff1bfb1052e80ff1.jpg",
+                "wareName": "Apple iPhone 11 (A2223) 128GB 黄色 移动联通电信4G手机 双卡双待",
+                "jdPrice": "5999",
+                "mPrice": "6000",
+                "productValue": {
+                    "hotScore": "74"
+                },
+                "stockNum": "-1",
+                "currentRank": "32",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000000127"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100003582687",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/83202/24/524/298511/5cebc5cdE5f4759ac/4567583f90977277.jpg",
+                "wareName": "Redmi 7A 4000mAh超长续航 AI人脸解锁 骁龙8核  标配10W充电器 整机防泼溅 3GB+32GB 磨砂黑 游戏智能手机 小米 红米",
+                "jdPrice": "549",
+                "mPrice": "6000",
+                "lowInDay": 90,
+                "productValue": {
+                    "hotScore": "74"
+                },
+                "stockNum": "-1",
+                "currentRank": "33",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史90天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000004123"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100011351678",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/104161/17/11953/72376/5e4400baEd8887421/1a2dcd48411eb821.jpg",
+                "wareName": "小米10 Pro 双模5G 骁龙865 1亿像素8K电影相机  50倍变焦 50W快充 12GB+512GB 星空蓝 拍照智能新品游戏手机",
+                "jdPrice": "5999",
+                "mPrice": "19999",
+                "productValue": {
+                    "hotScore": "74"
+                },
+                "stockNum": "-1",
+                "currentRank": "34",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004123"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100010414282",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/92693/18/15117/149931/5e6cb335E7271bac1/cef42678741e9566.jpg",
+                "wareName": "华为 HUAWEI nova 6 5G 105°前置广角双摄 超感光暗拍 麒麟990芯片 8GB+128GB苏音蓝全网通双卡双待",
+                "jdPrice": "3799",
+                "mPrice": "100000",
+                "productValue": {
+                    "hotScore": "73"
+                },
+                "stockNum": "-1",
+                "currentRank": "35",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100001864325",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/25173/15/12624/346766/5c99f254E4d401305/5c181ce1948cc9bc.jpg",
+                "wareName": "荣耀V20 游戏手机 麒麟980芯片 魅眼全视屏 4800万深感相机 8GB+128GB 幻夜黑 移动联通电信4G全面屏手机",
+                "jdPrice": "2399",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "73"
+                },
+                "stockNum": "-1",
+                "currentRank": "36",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100010617232",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/100005/34/14675/266393/5e699971E7c1ba61c/8aa2c8f4851ca2c4.jpg",
+                "wareName": "Redmi K30 王一博同款 5G双模 120Hz流速屏 骁龙765G 30W快充 6GB+128GB 深海微光 游戏智能手机 小米 红米",
+                "jdPrice": "2299",
+                "mPrice": "6000",
+                "productValue": {
+                    "hotScore": "72"
+                },
+                "stockNum": "-1",
+                "currentRank": "37",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004123"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004245926",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/14406/20/11929/179077/5c933b56E8da9b25c/8f4a75b7331abb96.jpg",
+                "wareName": "华为 HUAWEI 畅享 9S 4GB+128GB 幻夜黑 全网通 2400万超广角三摄珍珠屏大存储 移动联通电信4G手机 双卡双待",
+                "jdPrice": "1399",
+                "mPrice": "4999",
+                "productValue": {
+                    "hotScore": "72"
+                },
+                "stockNum": "-1",
+                "currentRank": "38",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100008643322",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/89280/14/14921/322404/5e6b7efeE01312aa6/48ec740a3ed7659f.jpg",
+                "wareName": "OPPO Reno Ace 8GB+256GB 星际蓝 65W超级闪充 90Hz电竞屏 高通骁龙855Plus 4G智能游戏手机",
+                "jdPrice": "3199",
+                "mPrice": "9999.99",
+                "productValue": {
+                    "hotScore": "71"
+                },
+                "stockNum": "-1",
+                "currentRank": "39",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004065"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100011263192",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/104048/9/14913/389135/5e6b6cd9E75929ff2/abefd0f1ba22ce63.jpg",
+                "wareName": "OPPO Reno3 元气版 双模5G 4800万超清四摄 视频双防抖 7.96mm纤薄机身  8GB+128GB 天镜白 游戏视频手机",
+                "jdPrice": "2999",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "70"
+                },
+                "stockNum": "-1",
+                "currentRank": "40",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004065"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "3133853",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/27775/9/12538/194688/5c999d68E3b4b3c81/b2d0471de24d7696.jpg",
+                "wareName": "Apple iPhone 7 Plus (A1661) 128G 玫瑰金色 移动联通电信4G手机",
+                "jdPrice": "3599",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "68"
+                },
+                "stockNum": "-1",
+                "currentRank": "41",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000000127"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "7635559",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t19822/21/667428507/40291/1aba7a/5b05180aN7bcc1127.jpg",
+                "wareName": "华为 HUAWEI 畅享8e青春 2GB+32GB全面屏 黑色 全网通版 移动联通电信4G手机 双卡双待",
+                "jdPrice": "549",
+                "mPrice": "2000",
+                "productValue": {
+                    "hotScore": "68"
+                },
+                "stockNum": "-1",
+                "currentRank": "42",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100011498406",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/89110/16/14855/167440/5e68e99dE20b61222/9e8e007a0df4e00c.jpg",
+                "wareName": "三星 Galaxy S20 Ultra 5G 双模5G 骁龙865 1.08亿像素 100倍变焦 游戏手机 12GB+256GB 遐想灰",
+                "jdPrice": "9999",
+                "mPrice": "99999",
+                "productValue": {
+                    "hotScore": "65"
+                },
+                "stockNum": "-1",
+                "currentRank": "43",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000003443"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "5089273",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t8284/363/1326459580/71585/6d3e8013/59b857f2N6ca75622.jpg",
+                "wareName": "Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机",
+                "jdPrice": "4199",
+                "mPrice": "9999",
+                "lowInDay": 30,
+                "productValue": {
+                    "hotScore": "65"
+                },
+                "stockNum": "-1",
+                "currentRank": "44",
+                "productExt": {
+                    "shipType": "1",
+                    "recommendType": "4",
+                    "international": false,
+                    "productBusinessName": {
+                        "recommendName": "历史30天最低价"
+                    }
+                },
+                "productShop": {
+                    "venderId": "1000000127"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004918021",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/91238/16/14609/383727/5e68e279E93c10b91/5b0212cdacf0051f.jpg",
+                "wareName": "OPPO K5 8GB+128GB 奇幻森林 6400万超清四摄 VOOC闪充4.0 高通骁龙730G 4G游戏智能手机",
+                "jdPrice": "1899",
+                "mPrice": "9999.99",
+                "productValue": {
+                    "hotScore": "64"
+                },
+                "stockNum": "-1",
+                "currentRank": "45",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004065"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100000892804",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t25933/297/1797840629/176935/5976cd0b/5bbc1325Ndf6aa67e.jpg",
+                "wareName": "华为 HUAWEI 畅享9 Plus 6GB+128GB 幻夜黑 全网通 四摄超清全面屏大电池 移动联通电信4G手机 双卡双待",
+                "jdPrice": "1699",
+                "mPrice": "9999",
+                "plusPrice": "1369",
+                "productValue": {
+                    "hotScore": "64"
+                },
+                "stockNum": "-1",
+                "currentRank": "46",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100006946970",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/103038/3/14413/131242/5e65cdfeE547dcc6e/322ee900202a87a4.jpg",
+                "wareName": "荣耀9X PRO 麒麟810液冷散热 4000mAh超强续航 4800万超广角夜拍三摄 6.59英寸全网通8GB+128GB 幻夜黑",
+                "jdPrice": "1989",
+                "mPrice": "9999",
+                "productValue": {
+                    "hotScore": "64"
+                },
+                "stockNum": "-1",
+                "currentRank": "47",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000000904"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100004885543",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/51932/36/13486/199865/5da566d4Ec47b33ad/c9177b823258740d.jpg",
+                "wareName": "一加 OnePlus 7T 90Hz流体屏 骁龙855Plus旗舰 4800万超广角三摄  8GB+256GB 冰川银 全面屏拍照游戏手机",
+                "jdPrice": "3199",
+                "mPrice": "19999",
+                "productValue": {
+                    "hotScore": "62"
+                },
+                "stockNum": "-1",
+                "currentRank": "48",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000001947"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100009177430",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/51202/17/14173/76465/5dad8324Ead7985e8/d153f97229c27c8d.jpg",
+                "wareName": "华为 HUAWEI 畅享 10S 炫彩OLED屏幕指纹4800万超广角AI三摄4000mAh大电池6GB+64GB幻夜黑全网通双4G手机",
+                "jdPrice": "1599",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "62"
+                },
+                "stockNum": "-1",
+                "currentRank": "49",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000004259"
+                },
+                "clk": "null"
+            },
+            {
+                "wareId": "100006305705",
+                "imgPath": "http://m.360buyimg.com/rank/s264x264_jfs/t1/107236/22/8765/117069/5e6b4f29E109a25ae/6e5e057d9b0f0eca.jpg",
+                "wareName": "iQOO 3 8GB+128GB 驭影黑 高通骁龙865 55W超快闪充 专业电竞体验游戏手机 双模5G全网通手机 vivo",
+                "jdPrice": "3798",
+                "mPrice": "10000",
+                "productValue": {
+                    "hotScore": "62"
+                },
+                "stockNum": "-1",
+                "currentRank": "50",
+                "productExt": {
+                    "shipType": "1",
+                    "international": false,
+                    "productBusinessName": {}
+                },
+                "productShop": {
+                    "venderId": "1000310642"
+                },
+                "clk": "null"
+            }
+        ],
+        "refreshTime": {
+            "bottomPrompt": "已经到最底了,可刷新获取最新热卖榜内容",
+            "topPrompt": "以下为最新热卖榜内容",
+            "isRealTime": true
+        },
+        "rankExt": {
+            "singleHotRankExt": {
+                "rankIcon": "http://m.360buyimg.com/mobileshopcms/jfs/t2899/348/3951762078/2285/ea7d4f34/579f47caN6fe57e7e.png",
+                "plusPriceIcon": "https://img30.360buyimg.com/njmobilecms/jfs/t11200/268/1970314352/939/a04da20c/5a0d4bceN375b2f81.jpg",
+                "secKillPriceIcon": "https://img30.360buyimg.com/njmobilecms/jfs/t13735/171/511131891/2381/4a41770d/5a0d4bf7N2b7f60cf.jpg"
+            }
+        },
+        "updateTime": "2020-03-15 11:24",
+        "impr": "null"
+    }
+}

@@ -1,0 +1,47 @@
+.layout-header {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+}
+
+
+.menu {
+    z-index: 50;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    background-color: white;
+}
+
+.subMenu {
+    width: 25%;
+    float: left;
+}
+
+.menu_name {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    font-size: 0.16rem;
+    color: #adacac;
+}
+
+.active {
+    color: #01cd3f;
+}
+
+.text-center {
+    text-align: center
+}
+
+button{
+    border-style: none;
+
+}

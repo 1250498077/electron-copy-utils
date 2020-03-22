@@ -1,0 +1,19 @@
+.classify-layout {
+    display: flex;
+    min-height: 100%;
+    .classify-layout-left {
+        font-size: 0.4rem;
+        border-right: 1px solid #e8e8e8;
+        text-align: center;
+        padding: 0 0.5rem;
+        .classify-layout-left-end {
+            height: 1rem;
+        }
+    }
+    .classify-layout-left li {
+        padding: 0.25rem 0;
+    }
+    .classify-layout-right {
+        flex: 1 1 0%;
+    }
+}

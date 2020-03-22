@@ -1,0 +1,70 @@
+.good-tags-detail {
+    width: 4.5rem;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    background-color: white;
+    .good-img-view {
+        width: 100%;
+        position: relative;
+        .good-img {
+            width: 100%;
+        }
+        .good-explain {
+            position: absolute;
+            bottom: 0.24rem;
+            right: 0.25rem;
+            height: 0.4rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding-left: 0.15rem;
+            padding-right: 0.15rem;
+            padding-top: 0.1rem;
+            padding-bottom: 0.1rem;
+            font-size: 0.25rem;
+            line-height: 0.4rem;
+        }
+    }
+
+    .good-desc {
+        padding: 0.2rem;
+        .good-desc-title {
+            font-weight: 700;
+            font-size: 0.4rem;
+        }
+        .good-desc-rate {
+            display: flex;
+            font-size: 0.3rem;
+            margin-top: 0.1rem;
+            .good-desc-rate-number {
+                color: #ff0200;
+            }
+            .good-desc-rate-desc {
+                color: #4e4e4e;
+                font-weight: 500;
+                margin-left: 0.1rem;
+            }
+        }
+        .good-desc-tags {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 0.2rem;
+            .good-desc-tag {
+                color: red;
+                border: 1px solid red;
+                font-size: 0.3rem;
+                padding-left: 0.15rem;
+                padding-right: 0.15rem;
+                background-color: rgba(255, 61, 0, 0.2);
+                border-radius: 0.05rem;
+                margin-left: 0.1rem;
+                margin-top: 0.1rem;
+            }
+        }
+        .good-desc-sell {
+            color: 0.2rem;
+            margin-top: 0.4rem;
+        }
+
+    }
+
+}
