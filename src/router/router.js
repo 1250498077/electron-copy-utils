@@ -5,7 +5,7 @@ const routers = [
         key: 'home',
         path: '/home',
         component: HomeView
-    }
+    },
 ]
 
 export default  routers

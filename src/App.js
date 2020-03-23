@@ -1,18 +1,24 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-// import './clear.css';
+import 'antd/dist/antd.css';
 import Layout from './page/layout'
 import { HashRouter } from "react-router-dom";
-import 'antd/dist/antd.css';
+const fs = window.require('fs').promises
+const join = window.require('path').join;
+
 
 function App() {
+
+
+
   return (
     <HashRouter>
-    <div className="App">
-      <div>
-          <Layout />
+      <div className="App">
+        <div>
+            <Layout />
+        </div>
       </div>
-    </div>
     </HashRouter>
   );
 }
