@@ -3,28 +3,11 @@ import { Component } from 'react';
 // import router from '../../router/router'
 import './layoutScss.scss'
 import { Route, Switch, Link, withRouter } from 'react-router-dom';
-import { Input, Button } from 'antd';
+import { Input, Button, InputNumber } from 'antd';
 const fs = window.require('fs').promises
 const join = window.require('path').join;
-
-
-const data = [
-  {
-    img: 'https://zos.alipayobjects.com/rmsportal/dKbkpPXKfvZzWCM.png',
-    title: 'Meet hotel',
-    des: '不是所有的兼职汪都需要风吹日晒',
-  },
-  {
-    img: 'https://zos.alipayobjects.com/rmsportal/XmwCzSeJiqpkuMB.png',
-    title: 'McDonald\'s invites you',
-    des: '不是所有的兼职汪都需要风吹日晒',
-  },
-  {
-    img: 'https://zos.alipayobjects.com/rmsportal/hfVtzEhPzTUewPm.png',
-    title: 'Eat the week',
-    des: '不是所有的兼职汪都需要风吹日晒',
-  },
-]
+let level = 2;
+let currentlevel = 1;
 let states = null;
 
 class LayoutView extends Component {
@@ -36,19 +19,36 @@ class LayoutView extends Component {
       selectedTab: 'redTab',
       hidden: false,
       fullScreen: false,
+      files: '',
+      // 设定搜索层级
+      level: 1
     }
+  }
+    
+  componentDidMount = () => {
+    let filesList = this.geFileList("D:/react/新复制工具/my-app-new/src");
+    console.log('最终生成结果', filesList)
+    // let str = JSON.stringify(filesList);
+    // str = "var data ={name:'Egret',children:#1}".replace("#1",str);
+    // this.writeFile("tree.js",str);
   }
 
   geFileList = async (path) => {
     let filesList = [];
     let targetObj = {};
-    filesList = await this.readFile(path, filesList, targetObj);
+
+    await this.readFile({
+      path, filesList, targetObj
+    });
     return filesList;
   }
 
-  readFile = async (path, filesList, targetObj) => {
+  readFile = async ({
+    path, filesList, targetObj
+  }) => {
     let files = await fs.readdir(path);//需要用到同步读取
-    debugger
+
+    currentlevel++;
     files.forEach(async (file) => {
       states = await fs.stat(path + '/' + file);
       if (states.isDirectory()) {
@@ -62,7 +62,13 @@ class LayoutView extends Component {
           filesList.push(item);
         }
 
-        this.readFile(path + '/' + file, filesList, item);
+        if (currentlevel <= this.state.level) {
+          this.readFile({
+            path: path + '/' + file, 
+            filesList, 
+            targetObj: item
+          });
+        }
       } else {
         //创建一个对象保存信息
         let obj = new Object();
@@ -80,6 +86,7 @@ class LayoutView extends Component {
         }
       }
     });
+
     return filesList;
   }
 
@@ -89,22 +96,40 @@ class LayoutView extends Component {
        console.log("文件生成成功");
     }
   }
-  
-  componentDidMount = () => {
-    let filesList = this.geFileList("D:/react/新复制工具/my-app-new/src");
-    let str = JSON.stringify(filesList);
-    str = "var data ={name:'Egret',children:#1}".replace("#1",str);
-    this.writeFile("tree.js",str);
-  }
 
   // 初始状态或状态变化会触发render
   render() {
 
     return (
       <div className="layout-header">
-        <div>
-          <Input placeholder="Basic usage" />
-          <Button type="primary">开始复制</Button>
+        <div style={{display: 'flex'}}>
+          <Input placeholder="Basic usage" onChange={(e) => {
+            this.setState({
+              files: e.target.value
+            })
+          }} />
+          <InputNumber 
+            min={1}
+            max={10} 
+            defaultValue={3} 
+            onChange={(value) => {
+              this.setState({
+                level: value
+              })
+            }}
+          />
+          <Button
+            type="primary"
+            onClick={() => {
+              const {files} = this.state;
+              try {
+                let fileStr = files.replace(/\\/g, '/')
+                this.geFileList(fileStr);
+              } catch(e) {
+                console.log('出现问题')
+              }
+
+            }}>开始复制</Button>
         </div>
       </div>
     )
