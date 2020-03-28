@@ -3,6 +3,7 @@
   "main": "main.js",
   "version": "0.1.0",
   "private": true,
+  "homepage":"./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,12 +16,22 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
+  "build": {
+    "productName":"xxxx",
+    "appId": "com.xxx.xxxxx",
+    "copyright":"xxxx",
+    "directories": {
+      "output": "build"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ele": "electron ."
+    "ele": "electron .",
+    "package": "electron-packager ./build package -win=x64 --out=build --arch=x64 --electron-version 4.1.1 --overwrite",
+    "electron_build": "electron-packager ./ --platform=win32 --arch=x64 --overwrite"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.1"
   }
 }

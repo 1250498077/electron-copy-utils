@@ -6,13 +6,8 @@ import _ from 'lodash';
 import './layoutScss.scss'
 import { Route, Switch, Link, withRouter } from 'react-router-dom';
 import { Input, Button, TreeSelect, Tree  } from 'antd';
-const fs = window.require('fs').promises
-const join = window.require('path').join;
-let filesList = [];
-let targetObj = {};
-let states = null;
-
-const { SHOW_PARENT } = TreeSelect;
+const fs = window.require('fs')
+const path = window.require('path');
 
 class LayoutView extends Component {
 
@@ -23,31 +18,77 @@ class LayoutView extends Component {
       selectedTab: 'redTab',
       hidden: false,
       fullScreen: false,
-      files: '',
-      // 设定搜索层级
-      level: 1,
-      // 树
-      value: [],
+      // 源文件目录
+      sourceFile: '',
+      // 目标目录
+      targetFile: '',
       // 树形数据
       treeData: {
         children: []
-      }
+      },
+      // 选中的全部文件
+      sourceFlieList: []
     }
-    this.currentlevel = 1;
+
   }
     
   componentDidMount = () => {
-    // let filesList = this.geFileList("D:/react/新复制工具/my-app-new/src");
-    // console.log('最终生成结果', filesList)
-    // let str = JSON.stringify(filesList);
-    // str = "var data ={name:'Egret',children:#1}".replace("#1",str);
-    // this.writeFile("tree.js",str);
+    console.log('fs', fs)
+  }
+
+  // 创建目录
+  createDir = async (dirname) => {
+    if (fs.existsSync(dirname)) {
+      return true;
+    } else {
+      if (this.createDir(path.dirname(dirname))) {
+        fs.mkdirSync(dirname);
+        return true;
+      }
+    }
+  }
+
+  // 控制器
+  copeFileController = () => {
     
+    const {
+      // 目标文件的绝对路径
+      targetFile,
+      // 每一个文件的绝对路径
+      sourceFlieList
+    } = this.state;
+    //复制文件
+    this.copeFile(sourceFlieList, targetFile)
+  }
+
+  // 拷贝文件
+  copeFile = async (sourceFlieList, targetFile) => {
+    const {
+      // 选择的源目录
+      sourceFile
+    } = this.state;
+    sourceFlieList.map(async (fileUrl) => {
+      // 源： 相对目录 + 文件名
+      let sourcedir = fileUrl.replace(sourceFile, '');
+      // 源：相对目录
+      let arr = sourcedir.split("/");
+      arr.splice(arr.length-1, 1);
+      let str = arr.join("/")
+      // 目标： 绝对路径 + 相对目录
+      let relativeTargetFile = targetFile + sourcedir;
+      let relativeTargetDir = targetFile + str;
+      await this.createDir(relativeTargetDir);
+      // 源：绝对路径+相对目录+文件名    目标： 绝对路径+相对目录+文件名
+      fs.copyFile(fileUrl, relativeTargetFile, (err) => {
+        if (!err)
+          console.log(targetFile);
+      });
+    })
   }
 
   geFileList = async (path) => {
-    filesList = await this.readFile({
-      path, filesList, targetObj
+    let filesList = await this.readFile({
+      path
     });
     return filesList;
   }
@@ -55,9 +96,8 @@ class LayoutView extends Component {
   readFile = async ({
     path, 
   }) => {
-    
-    let files = await fs.readdir(path);
-    let states = await fs.stat(path);
+    let files = await fs.promises.readdir(path);
+    let states = await fs.promises.stat(path);
     let fileNameArr = path.split('/');
     let staticList = { 
       name: path, 
@@ -68,16 +108,24 @@ class LayoutView extends Component {
       title: fileNameArr[fileNameArr.length-1],
       children: []
     };
+
     // 遍历当前目录下的所有文件
     for (let i = 0; i < files.length; i++) {
       let fileName = files[i];
-
+      let states = await fs.promises.stat(path + '/' + fileName);
       if (fileName === 'node_modules') {
-        return;
+        staticList.children.push({
+          type: 'file',
+          size: states.size,
+          title: fileName,
+          key: path + '/' + fileName,
+          value: path + '/' + fileName,
+          isLeaf: true
+        })
       }
-      let states = await fs.stat(path + '/' + fileName);
+
       // 判断是不是文件夹
-      if (states.isDirectory()) {
+      if (states.isDirectory() && fileName !== 'node_modules') {
         let child = await this.readFile({
           path: path + '/' + fileName
         })
@@ -103,60 +151,60 @@ class LayoutView extends Component {
     }
   }
 
-  onChange = value => {
-    console.log('onChange ', value);
-    this.setState({ value });
-  };
-
   onSelect = (selectedKeys, info) => {
-    console.log('selected', selectedKeys, info);
+    this.setState({
+      sourceFlieList: selectedKeys
+    })
   };
 
   onCheck = (checkedKeys, info) => {
     console.log('onCheck', checkedKeys, info);
+    this.setState({
+      sourceFlieList: checkedKeys
+    })
   };
 
   // 初始状态或状态变化会触发render
   render() {
-
     return (
       <div className="layout-header">
         <div style={{display: 'flex'}}>
-          <Input placeholder="Basic usage" onChange={(e) => {
+          <Input value={this.state.sourceFile} placeholder="source" onChange={(e) => {
             this.setState({
-              files: e.target.value
+              sourceFile: e.target.value.replace(/\\/g, '/')
             })
           }} />
-          {/* <InputNumber 
-            min={1}
-            max={10} 
-            defaultValue={3} 
-            onChange={(value) => {
-              this.setState({
-                level: value
-              })
-            }}
-          /> */}
-          <Button
-            type="primary"
-            onClick={async() => {
-              const {files} = this.state;
-              try {
-                let fileStr = files.replace(/\\/g, '/')
-                let filesList = await this.geFileList(fileStr);
-                console.log('filesList filesList', filesList)
-                this.setState({ treeData:  filesList });
-              } catch(e) {
-                console.log('读取目录出现问题')
-              }
-
-            }}>开始复制</Button>
         </div>
+        <div>
+          <Input value={this.state.targetFile} placeholder="target" onChange={(e) => {
+            this.setState({
+              targetFile: e.target.value.replace(/\\/g, '/')
+            })
+          }} />
+        </div>
+        <Button
+          type="primary"
+          onClick={async() => {
+            const {sourceFile, targetFile} = this.state;
+            try {
+              let filesList = await this.geFileList(sourceFile);
+              this.setState({ treeData:  filesList });
+            } catch(e) {
+              console.log('读取目录出现问题')
+            }
+
+        }}>检索</Button>
+        <Button
+          type="primary"
+          onClick={() => {
+            this.copeFileController()
+        }}>开始复制</Button>
         <Tree
+          defaultCheckedKeys={true}
           checkable
           onSelect={this.onSelect}
           onCheck={this.onCheck}
-          treeData={this.state.treeData.children}
+          treeData={[this.state.treeData]}
         />
       </div>
     )
