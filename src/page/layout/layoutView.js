@@ -4,7 +4,7 @@ import { Component } from 'react';
 import _ from 'lodash';
 // import {deepClone} from '../../utils'
 import './layoutScss.scss'
-import { Route, Switch, Link, withRouter } from 'react-router-dom';
+// import { Route, Switch, Link, withRouter } from 'react-router-dom';
 import { Input, Button, TreeSelect, Tree  } from 'antd';
 const fs = window.require('fs')
 const path = window.require('path');
@@ -13,7 +13,7 @@ class LayoutView extends Component {
 
   constructor(props, context) {
     super(props, context)
-    window.router = this.props.history;
+    // window.router = this.props.history;
     this.state = {
       selectedTab: 'redTab',
       hidden: false,
@@ -211,4 +211,4 @@ class LayoutView extends Component {
   }
 }
 
-export default withRouter(LayoutView)
+export default LayoutView

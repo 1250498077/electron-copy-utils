@@ -3,7 +3,12 @@
   "main": "main.js",
   "version": "0.1.0",
   "private": true,
-  "homepage":"./",
+  "homepage": "./",
+  "description": "Online Markdown Editor using Qiniu cloud service",
+  "author": {
+    "name": "Viking Zhang",
+    "email": "vikingmute@gmail.com"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,12 +22,17 @@
     "react-scripts": "3.4.1"
   },
   "build": {
-    "productName":"xxxx",
-    "appId": "com.xxx.xxxxx",
-    "copyright":"xxxx",
-    "directories": {
-      "output": "build"
-    }
+    "appId": "cloudDoc",
+    "productName": "复制工具",
+    "copyright": "Copyright © 2019 ${author}",
+    "extends": null,
+    "files": [
+      "build/**/*",
+      "node_modules/**/*",
+      "settings/**/*",
+      "package.json",
+      "main.js"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,8 +40,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ele": "electron .",
-    "package": "electron-packager ./build package -win=x64 --out=build --arch=x64 --electron-version 4.1.1 --overwrite",
-    "electron_build": "electron-packager ./ --platform=win32 --arch=x64 --overwrite"
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "prepack": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,6 +60,8 @@
     ]
   },
   "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-builder": "^22.4.1",
     "electron-packager": "^14.2.1"
   }
 }

@@ -1,7 +1,6 @@
 const { app, BrowserWindow } = require('electron')
-const isDev = require('electron-is-dev');
-
-function createWindow () {   
+const path = require('path')
+function createWindow () {
   // 创建浏览器窗口
   let win = new BrowserWindow({
     width: 800,
@@ -10,9 +9,11 @@ function createWindow () {
       nodeIntegration: true
     }
   })
+  // win.webContents.openDevTools()
 
   // 加载index.html文件
-  win.loadURL('http://localhost:3000')
+  win.loadURL(`file://${path.join(__dirname, './build/index.html')}`);
+  // win.loadURL(`http://localhost:3000/`)
 }
 
 app.whenReady().then(createWindow)
