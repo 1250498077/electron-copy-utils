@@ -14,27 +14,49 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^3.26.14",
+    "asar": "^3.0.2",
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.2",
     "electron-is-dev": "^1.1.0",
+    "http-proxy": "^1.18.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "wait-on": "^4.0.1"
   },
   "build": {
     "appId": "cloudDoc",
     "productName": "复制工具",
     "copyright": "Copyright © 2019 ${author}",
     "extends": null,
+    "electronDownload": {
+      "mirror": "https://npm.taobao.org/mirrors/electron/"
+    },
     "files": [
       "build/**/*",
       "node_modules/**/*",
       "settings/**/*",
       "package.json",
       "main.js"
-    ]
+    ],
+    "win": {
+      "target": [
+        "msi",
+        "nsis"
+      ],
+      "artifactName": "${productName}-Web-Setup-${version}.${ext}",
+      "publisherName": "Viking Zhang"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "perMachine": false
+    }
   },
   "scripts": {
+    "dev": "concurrently \"wait-on http://localhost:3000 && electron .\" \"cross-env BROWSER=none npm start\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,7 +64,8 @@
     "ele": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "predisk": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

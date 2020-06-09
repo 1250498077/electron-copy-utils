@@ -12,8 +12,8 @@ function createWindow () {
   // win.webContents.openDevTools()
 
   // 加载index.html文件
-  win.loadURL(`file://${path.join(__dirname, './build/index.html')}`);
-  // win.loadURL(`http://localhost:3000/`)
+  // win.loadURL(`file://${path.join(__dirname, './build/index.html')}`);
+  win.loadURL(`http://localhost:3000/`)
 }
 
 app.whenReady().then(createWindow)
